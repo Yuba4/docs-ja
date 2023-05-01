@@ -12,7 +12,7 @@ Rollup 3 は Rollup 2 とほぼ互換性があります。プロジェクトで�
 
 ## 一般的な変更点
 
-### エンコーディング
+### エンコーディング`
 
 ビルドのデフォルトの文字セットが utf8 になりました（詳しくは [#10753](https://github.com/vitejs/vite/issues/10753) を参照）。
 
@@ -40,7 +40,7 @@ import stuff from './global.css?inline'
 
 ### 環境変数
 
-Vite では `dotenv` 16 と `dotenv-expand` 9 を使うようになりました（以前は `dotenv` 14 と `dotenv-expand` 5）。`#` や `` `` を含む値がある場合は、それらを引用符で囲む必要があります。
+Vite では `dotenv` 16 と `dotenv-expand` 9 を使うようになりました（以前は `dotenv` 14 と `dotenv-expand` 5）。`#` や `` ` `` を含む値がある場合は、それらを引用符で囲む必要があります。
 
 ```diff
 -VITE_APP=ab#cd`ef
